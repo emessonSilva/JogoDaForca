@@ -1,0 +1,25 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  border: 3px solid black;
+  padding: 1rem;
+
+  #keyboard {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 6px;
+  }
+}
